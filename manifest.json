@@ -1,0 +1,20 @@
+{
+    "name": "Google Dịch",
+    "description": "Build an Extension! Google Translate",
+    "version": "1.0",
+    "author": "TruongJae",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "manifest_version": 3,
+    "content_scripts": [
+    {
+      "matches": ["https://m.facebook.com/*","https://www.facebook.com/*","https://www.messenger.com/*"],
+      "css": ["css/myStyles.css"],
+      "js": ["js/content.js"]
+    }
+  ]
+
+}
